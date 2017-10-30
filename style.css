@@ -1,0 +1,116 @@
+body {
+    background-color: #fc7 ; 
+    color: #333 ;
+}
+
+body#idClassPage {
+    background-color: white ;
+    font-size: 1.2em ;
+    
+}
+
+h1 {
+    font-size: 50px ;
+    font-family: helvetica , ariel , sans-serif ; 
+    
+}
+
+h2 {
+    font-size: 30px ;
+    font-family: georgia , times , serif ;
+    padding: 10px;
+    margin: 10px ; 
+    
+}
+
+p {
+    font-size: 18px ; 
+    font-style: italic ; 
+    
+}
+
+ol {
+    margin: 20px ;
+    padding: 20px; 
+    color: white ;    
+}
+
+/* style for id and class lecture */
+
+h1#main-title {
+    
+    color: #fc3;
+    background-color: #353535 ;
+    padding: 10px ;
+    margin: 20px ; 
+    font-size: 18px ;
+}
+
+.sectionHeader {
+  color: olive ;
+    border: solid; 1px pink;
+    padding: 40px 20px 10px;
+    text-align: center;
+    font-size: 1em;
+    
+}
+
+/* style fot the descendant selector lecturee */
+
+.primary-box {
+ 
+    background-color: white ; border: solid 10px #333; 
+    padding: 20px; 
+    
+    
+}
+
+.secodary-box {
+    
+    background-color: #333 ; 
+    color: #fff;
+    padding: 10px ; 
+    
+}
+
+.secondary-box p {
+  font-size: 12px; 
+    font-style: normal ;
+    
+}
+
+.secondary-box p em {
+    
+    color: #fc3fc3
+}
+
+.primary-box h2{ 
+font-family: helvetica , ariel , sans-serif;
+
+}
+
+/* style fpr the grouping selectors lecture
+
+the main container is responsiive!!!!!!!!!
+*/
+
+#mainContainer {
+    width: 960px; 
+    margin: 0 auto ; 
+    
+}
+
+.primary-box , .secondary-box {
+   margin: 30px 20px ;  
+}
+ 
+.secondary-box {
+    border: solid 1px black ;
+    
+}
+h1 , h2 , h3 , h4 , h5 , h6 {
+    text-align: center ;
+    border-bottom: solid 3px black;
+    padding: 0 0 10px;
+}
+

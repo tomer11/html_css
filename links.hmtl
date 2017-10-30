@@ -1,0 +1,14 @@
+<!DOCTYPE html> 
+
+<html> 
+
+  <head> 
+    <title>Links</title>
+  </head>
+
+<body>
+       <p>If you want anything on the internet, you can <a href="index.hmtl">check out my index page. </a>
+</p>
+</body>
+
+</html>
